@@ -1,0 +1,68 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md",
+  "SettingsVersion": 1.2,
+  "SimMode": "ComputerVision",
+  "SubWindows": [
+    {"WindowID": 0, "CameraName": "0", "ImageType": 3, "Visible": false},
+    {"WindowID": 1, "CameraName": "0", "ImageType": 5, "Visible": false},
+    {"WindowID": 2, "CameraName": "0", "ImageType": 0, "Visible": false}
+  ],
+  "Recording": {
+    "RecordOnMove": true,
+    "RecordInterval": 0.05,
+    "Cameras": [
+        { "CameraName": "0", "ImageType": 0, "PixelsAsFloat": false, "Compress": true },
+        { "CameraName": "0", "ImageType": 1, "PixelsAsFloat": true },
+        { "CameraName": "0", "ImageType": 2, "PixelsAsFloat": true },
+        { "CameraName": "0", "ImageType": 3, "PixelsAsFloat": false, "Compress": true },
+        { "CameraName": "0", "ImageType": 4, "PixelsAsFloat": true },
+        { "CameraName": "0", "ImageType": 5, "PixelsAsFloat": false, "Compress": true },
+        { "CameraName": "0", "ImageType": 6, "PixelsAsFloat": false, "Compress": true },
+        { "CameraName": "0", "ImageType": 7, "PixelsAsFloat": false, "Compress": true }
+    ]
+  },
+  "CameraDefaults": {
+    "CaptureSettings": [
+      {
+        "ImageType": 0,
+        "Width": 1024,
+        "Height": 576
+      },
+      {
+        "ImageType": 1,
+        "Width": 1024,
+        "Height": 576
+      },
+      {
+        "ImageType": 2,
+        "Width": 1024,
+        "Height": 576
+      },
+      {
+        "ImageType": 3,
+        "Width": 1024,
+        "Height": 576
+      },
+      {
+        "ImageType": 4,
+        "Width": 1024,
+        "Height": 576
+      },
+      {
+        "ImageType": 5,
+        "Width": 1024,
+        "Height": 576
+      },
+      {
+        "ImageType": 6,
+        "Width": 1024,
+        "Height": 576
+      },
+      {
+        "ImageType": 7,
+        "Width": 1024,
+        "Height": 576
+      }
+    ]
+}
+}
