@@ -98,6 +98,8 @@ Now, 3,000 groups of foggy data are generated. We divide 3,000 images into train
 
 ## Citation
 
+More technical details are available in the [paper](https://arxiv.org/abs/2112.04278). Please cite this as:
+
 ```
 @article{you2021dmrvisnet,
   title={DMRVisNet: Deep Multi-head Regression Network for Pixel-wise Visibility Estimation Under Foggy Weather},
