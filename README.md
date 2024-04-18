@@ -1,14 +1,15 @@
 # FoggyAirsimCityImages
 
-## Overview
-
 Scene perception is essential for driving-decision making and traffic safety. However, fog, as a kind of common weather, frequently appears in the real world, especially in the mountain areas, making it difficult to accurately observe the surrounding environments. Therefore, precisely estimating the visibility under foggy weather can significantly benefit traffic management and safety.
 
 To facilitate the related research of visibility estimation, a virtual dataset, Foggy Airsim City Images (FACI) is collected using the Airsim simulation platform.
 
 During collection, Version 1.3.1 of AirSim is used on Windows; among the several maps provided by developers, a city scene is chosen; to make the cameras move more freely, the Computer Vision mode is used; and the height and width of the images are set to 576 and 1,024, respectively.
 
-To learn more about the detailed steps of fog synthesis, please go to the cited paper in the last section.
+To learn more about the detailed steps of fog synthesis, see the paper [DMRVisNet: Deep Multihead Regression Network for Pixel-Wise Visibility Estimation Under Foggy Weather](https://ieeexplore.ieee.org/document/9794328).
+
+## News:
+* 04/18/2024: **The Code of DMRVisNet** has been released on [GitHub](https://github.com/coutyou/DMRVisNet/tree/main).
 
 ## Data structure
 
@@ -98,13 +99,17 @@ Now, 3,000 groups of foggy data are generated. We divide 3,000 images into train
 
 ## Citation
 
-More technical details are available in the [paper](https://arxiv.org/abs/2112.04278). Please cite this as:
+Please cite this as:
 
 ```
-@article{you2021dmrvisnet,
-  title={DMRVisNet: Deep Multi-head Regression Network for Pixel-wise Visibility Estimation Under Foggy Weather},
+@article{you2022dmrvisnet,
+  title={Dmrvisnet: Deep multihead regression network for pixel-wise visibility estimation under foggy weather},
   author={You, Jing and Jia, Shaocheng and Pei, Xin and Yao, Danya},
-  journal={arXiv preprint arXiv:2112.04278},
-  year={2021}
+  journal={IEEE Transactions on Intelligent Transportation Systems},
+  volume={23},
+  number={11},
+  pages={22354--22366},
+  year={2022},
+  publisher={IEEE}
 }
 ```
